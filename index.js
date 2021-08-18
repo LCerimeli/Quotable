@@ -1,5 +1,6 @@
 const {Client, Intents} = require('discord.js')
 const fetch = require('node-fetch')
+const keepAlive = require('./server')
 const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES] })
 
 require('events').EventEmitter.defaultMaxListeners = 25;
@@ -318,4 +319,5 @@ client.on('messageCreate', msg => {
   }
 })
 
+keepAlive()
 client.login(process.env['token'])
