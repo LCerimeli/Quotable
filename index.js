@@ -125,9 +125,14 @@ async function getQuoteWisdom() {
   return (`${data.content} - ${data.author}`)
 }
 
+
 client.on('ready', () => {
   console.log(`logged in as ${client.user.tag}!`)
+  client.user.setActivity("!quote help", {
+    type: "PLAYING",
+  });
 })
+
 
 client.on('messageCreate', msg => {
   if (msg.author.bot) return
