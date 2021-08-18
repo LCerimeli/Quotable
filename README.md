@@ -1,5 +1,5 @@
 # Quotable
-A discord bot for getting random quotes using the open-source quotable API
+A discord bot that gets random quotes using the open-source quotable API
 
 Built with Node.js 16 on Replit using Nix
 
