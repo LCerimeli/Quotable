@@ -140,162 +140,82 @@ client.on('messageCreate', msg => {
   if (msg.content === '!quote') {
     getRandomQuote().then(quote => msg.channel.send(quote))
   }
-})
 
-client.on('messageCreate', msg => {
-  if (msg.author.bot) return
-
-  if (msg.content === '!quote business') {
+    if (msg.content === '!quote business') {
     getQuoteBusiness().then(quote => msg.channel.send(quote))
   }
-})
-
-client.on('messageCreate', msg => {
-  if (msg.author.bot) return
 
   if (msg.content === '!quote education') {
     getQuoteEducation().then(quote => msg.channel.send(quote))
   }
-})
-
-client.on('messageCreate', msg => {
-  if (msg.author.bot) return
 
   if (msg.content === '!quote faith') {
     getQuoteFaith().then(quote => msg.channel.send(quote))
   }
-})
-
-client.on('messageCreate', msg => {
-  if (msg.author.bot) return
 
   if (msg.content === '!quote famous quote') {
     getQuoteFamousQuote().then(quote => msg.channel.send(quote))
   }
-})
-
-client.on('messageCreate', msg => {
-  if (msg.author.bot) return
 
   if (msg.content === '!quote friendship') {
     getQuoteFriendship().then(quote => msg.channel.send(quote))
   }
-})
-
-client.on('messageCreate', msg => {
-  if (msg.author.bot) return
 
   if (msg.content === '!quote future') {
     getQuoteFuture().then(quote => msg.channel.send(quote))
   }
-})
-
-client.on('messageCreate', msg => {
-  if (msg.author.bot) return
 
   if (msg.content === '!quote happiness') {
     getQuoteHappiness().then(quote => msg.channel.send(quote))
   }
-})
-
-client.on('messageCreate', msg => {
-  if (msg.author.bot) return
 
   if (msg.content === '!quote history') {
     getQuoteHistory().then(quote => msg.channel.send(quote))
   }
-})
-
-client.on('messageCreate', msg => {
-  if (msg.author.bot) return
 
   if (msg.content === '!quote inspirational') {
     getQuoteInspirational().then(quote => msg.channel.send(quote))
   }
-})
-
-client.on('messageCreate', msg => {
-  if (msg.author.bot) return
 
   if (msg.content === '!quote life') {
     getQuoteLife().then(quote => msg.channel.send(quote))
   }
-})
-
-client.on('messageCreate', msg => {
-  if (msg.author.bot) return
 
   if (msg.content === '!quote literature') {
     getQuoteLiterature().then(quote => msg.channel.send(quote))
   }
-})
-
-client.on('messageCreate', msg => {
-  if (msg.author.bot) return
 
   if (msg.content === '!quote love') {
     getQuoteLove().then(quote => msg.channel.send(quote))
   }
-})
-
-client.on('messageCreate', msg => {
-  if (msg.author.bot) return
 
   if (msg.content === '!quote nature') {
     getQuoteNature().then(quote => msg.channel.send(quote))
   }
-})
-
-client.on('messageCreate', msg => {
-  if (msg.author.bot) return
 
   if (msg.content === '!quote politics') {
     getQuotePolitics().then(quote => msg.channel.send(quote))
   }
-})
-
-client.on('messageCreate', msg => {
-  if (msg.author.bot) return
 
   if (msg.content === '!quote religion') {
     getQuoteReligion().then(quote => msg.channel.send(quote))
   }
-})
-
-client.on('messageCreate', msg => {
-  if (msg.author.bot) return
 
   if (msg.content === '!quote science') {
     getQuoteScience().then(quote => msg.channel.send(quote))
   }
-})
-
-client.on('messageCreate', msg => {
-  if (msg.author.bot) return
 
   if (msg.content === '!quote success') {
     getQuoteSuccess().then(quote => msg.channel.send(quote))
   }
-})
-
-client.on('messageCreate', msg => {
-  if (msg.author.bot) return
 
   if (msg.content === '!quote tech') {
     getQuoteTechnology().then(quote => msg.channel.send(quote))
   }
-})
-
-client.on('messageCreate', msg => {
-  if (msg.author.bot) return
 
   if (msg.content === '!quote wisdom') {
     getQuoteWisdom().then(quote => msg.channel.send(quote))
   }
-})
-
-client.on('messageCreate', msg => {
-  if (msg.author.bot) return
 
   if (msg.content === '!quote help') {
     msg.reply(
