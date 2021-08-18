@@ -6,6 +6,7 @@ API used: https://api.quotable.io/
 
 # Features
 20 different topics available to filter your quotes
+
 Use "!quote help" for the commands list
 
 # How to add it to your server
