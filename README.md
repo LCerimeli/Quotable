@@ -6,7 +6,7 @@ Built with Node.js 16 on Replit using Nix
 API used: https://api.quotable.io/
 
 # Features
-20 different topics available to filter your quotes
+20 different topics available to filter your quotes, such as Technology, Education, Love, Inspirational, etc.
 
 Use "!quote help" for the commands list
 
