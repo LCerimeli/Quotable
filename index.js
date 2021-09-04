@@ -5,7 +5,7 @@ const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_
 
 require('events').EventEmitter.defaultMaxListeners = 25;
 
-async function getRandomQuote() {
+async function getQuoteRandom() {
   const response = await fetch('https://api.quotable.io/random')
   const data = await response.json()
   return (`${data.content} - ${data.author}`)
@@ -138,7 +138,7 @@ client.on('messageCreate', msg => {
   if (msg.author.bot) return
 
   if (msg.content === '!quote') {
-    getRandomQuote().then(quote => msg.channel.send(quote))
+    getQuoteRandom().then(quote => msg.channel.send(quote))
   }
 
     if (msg.content === '!quote business') {
