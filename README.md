@@ -12,4 +12,4 @@ Use "!quote help" for the commands list
 
 # How to add it to your server
 Simply use this invite link:
-https://discord.com/api/oauth2/authorize?client_id=876947444900958258&permissions=120259292160&scope=bot
+https://discord.com/api/oauth2/authorize?client_id=915247688885370891&permissions=3072&scope=bot
